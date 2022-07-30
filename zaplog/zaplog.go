@@ -46,7 +46,7 @@ type Logger struct {
 	inited    bool
 }
 
-func initLogger(cf ...*Options) {
+func InitLogger(cf ...*Options) {
 	logger.Lock()
 	defer logger.Unlock()
 	if logger.inited {
