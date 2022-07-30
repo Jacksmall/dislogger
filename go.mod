@@ -1,4 +1,4 @@
-module github.com/Jacksmall/base_struct/dislogger
+module github.com/Jacksmall/dislogger
 
 go 1.16
 
